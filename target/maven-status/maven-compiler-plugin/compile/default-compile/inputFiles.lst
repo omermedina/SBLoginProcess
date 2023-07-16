@@ -1,0 +1,5 @@
+/Users/omedina/Projects/grafana/SBLoginProcess/src/main/java/com/example/sbloginprocess/SBLoginProcessApplication.java
+/Users/omedina/Projects/grafana/SBLoginProcess/src/main/java/com/example/sbloginprocess/model/User.java
+/Users/omedina/Projects/grafana/SBLoginProcess/src/main/java/com/example/sbloginprocess/controller/LoginController.java
+/Users/omedina/Projects/grafana/SBLoginProcess/src/main/java/com/example/sbloginprocess/repository/UserRepository.java
+/Users/omedina/Projects/grafana/SBLoginProcess/src/main/java/com/example/sbloginprocess/service/UserService.java

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sb-login-process-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: sb-login-process
+  template:
+    metadata:
+      labels:
+        app: sb-login-process
+    spec:
+      containers:
+        - name: sb-login-process
+          image: omermedina/sb-login-process:latest
+          ports:
+            - containerPort: 8080
